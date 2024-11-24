@@ -1,4 +1,4 @@
 == api 문서 메인 페이지
 
 === api link
-- link:https://seokhwan.github.io/docs-test/hello.html[hello Api docs]
+- link:https://seokhwan-an.github.io/docs-test/hello.html[hello Api docs]
