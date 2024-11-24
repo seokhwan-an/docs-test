@@ -14,9 +14,9 @@ jobs:
     permissions:
       pages: write
       id-token: write
-    environment:
-      name: github-pages
-      url: $
+#    environment:
+#      name: github-pages
+#      url: $
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
