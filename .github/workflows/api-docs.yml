@@ -16,7 +16,6 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ secrets.DOCS_URL }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
