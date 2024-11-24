@@ -14,9 +14,11 @@ jobs:
     permissions:
       pages: write
       id-token: write
+    env:
+      URL: ${{ secrets.DOCS_URL }}
     environment:
       name: github-pages
-      url: ${{ secrets.DOCS_URL }}
+      url: env.URL
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
